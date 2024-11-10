@@ -1,0 +1,14 @@
+{
+  "name": "fake-news-detector",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "natural": "^6.5.0",
+    "csv-parser": "^3.0.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  }
+}
